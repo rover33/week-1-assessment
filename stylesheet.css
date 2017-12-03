@@ -4,7 +4,6 @@ html, body {
 }
 
 
-
 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -22,12 +21,41 @@ body {
     width: 100%;
 }
 
-h1 {
- color: #042a51;
- margin:0
+.tileimage{
+    background: url(images/bgtile.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
-#logo {
+#innerbody{
+    display: inline-block;
+
+}
+
+
+#innerRight{
+    display:inline-block
+}
+
+
+#instagramlogo{
+    display: inline-block;
+    
+    
+}
+
+#textapps{
+    display: inline;
+}
+
+#para{
+    display: inline-block;
+}
+
+#googleapple{
+    display: inline-block;
+}
+
+/* #logo {
     background: url(images/bgtile.png) no-repeat center center fixed;
     background-size: cover;
     padding-top: 15%;
@@ -64,13 +92,12 @@ section {
     background: url(images/frame.png);
     background-repeat: no-repeat;
     float: right;
-    margin-bottom: 10rem;
 }
 
-#para {
-   padding-left: 1rem;
-   padding-top: 1rem;
-}
+h1 {
+    color: #042a51;
+    margin:0
+   }
 
 span {
     font-weight: bold;
@@ -101,9 +128,7 @@ a {
 
 
 footer{
-    clear: both;
-    margin-top: 65%;
-
+    clear: both; */
     /* background: white; */
     /* display:row;
     bottom: 0; */
