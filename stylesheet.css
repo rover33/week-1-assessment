@@ -1,0 +1,89 @@
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    visibility: hidden;
+    display: block;
+    line-height: 0;
+    height: 0;
+    clear: both;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    background-color: #50789a;
+    
+}
+
+#home {
+    background-color: #50789a;
+}
+
+button {
+    background-color: #50789a;
+    color: white;
+    font-weight: bold;
+}
+
+#phone {
+    float: left;
+    padding-left: 7em;
+}
+
+
+#insta {
+    margin: auto;
+    text-align: center;
+}
+
+button {
+  float: right;
+}
+
+#para{
+    float:right;
+    padding-right: 8em;
+}
+
+span {
+    font-weight: bold;
+}
+#textBox {
+ background: url(images/frame.png) no-repeat center center fixed;
+ background-size: cover;
+}
+
+/* #head {
+    float:right;
+    padding-right: 10%;
+} */
+
+nav {
+    list-style-type: none;    
+}
+
+a {
+    color: #50789e;
+    text-decoration-line: none;
+}
+
+footer{
+    background: white;
+    display: flex;
+    height: 70%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
