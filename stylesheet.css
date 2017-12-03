@@ -1,89 +1,110 @@
+html, body {
+   margin: 0;
+   font-size: 16px; 
+}
+
+
+
 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.clearfix:after {
-    content: " ";
-    display: block;
-    visibility: hidden;
-    display: block;
-    line-height: 0;
-    height: 0;
-    clear: both;
-}
 
 body {
-    background-color: white;
-    height: 100vh;
+    background-color: #ffffff;
+
+}
+
+#container {
+    height: 100%;
     width: 100%;
-    padding: 0;
-    margin: 0;
+}
+
+h1 {
+ color: #042a51;
+ margin:0
 }
 
 #logo {
-    background-color: #50789a;
-    
+    background: url(images/bgtile.png) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 15%;
 }
 
 #home {
-    background-color: #50789a;
+    background-color: #668bab;
 }
 
 button {
-    background-color: #50789a;
+    background-color: #668bab;
     color: white;
     font-weight: bold;
+    border-color: #668bab;
+    float: right;
 }
 
 #phone {
     float: left;
-    padding-left: 7em;
+    padding-left: 15rem;
+   
 }
-
-
 #insta {
-    margin: auto;
-    text-align: center;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+    
 }
 
-button {
-  float: right;
+#home {
+    padding-top: .2rem;
 }
 
-#para{
-    float:right;
-    padding-right: 8em;
+section {
+    background: url(images/frame.png);
+    background-repeat: no-repeat;
+    float: right;
+    margin-bottom: 10rem;
+}
+
+#para {
+   padding-left: 1rem;
+   padding-top: 1rem;
 }
 
 span {
     font-weight: bold;
 }
-section {
- background: url(images/frame.png) no-repeat center center fixed;
- background-size: cover;
-}
 
-/* #head {
-    float:right;
-    padding-right: 10%;
-} */
 
 ul {
-    list-style-type: none;    
+    list-style-type: none; 
+    bottom: 0; 
+    margin: auto;
+    text-align: center;  
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
 }
 
 a {
     color: #50789e;
     text-decoration-line: none;
+    
 }
 
+#copy{
+    color: #acacad
+}
+
+
 footer{
-    background: white;
-    display: flex;
-    height: 70%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    bottom: 0;
+    clear: both;
+    margin-top: 65%;
+
+    /* background: white; */
+    /* display:row;
+    bottom: 0; */
+}   
