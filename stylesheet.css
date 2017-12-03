@@ -17,42 +17,47 @@ body {
 }
 
 #container {
-    height: 100%;
-    width: 100%;
-}
-
-.tileimage{
     background: url(images/bgtile.png) no-repeat center center fixed;
     background-size: cover;
+    height:50vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
 }
 
-#innerbody{
-    display: inline-block;
-
+#footerContainer {
+    height: 50vh;
+    background-color: #ffffff;
 }
 
+#innerBody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15rem;
+}
 
 #innerRight{
-    display:inline-block
+ display: inline-block;
+ margin: 3rem;
 }
 
 
 #instagramlogo{
-    display: inline-block;
-    
+display: inline-block;
+padding: -1rem;
     
 }
 
 #textapps{
-    display: inline;
+ 
 }
 
 #para{
-    display: inline-block;
+  
 }
 
 #googleapple{
-    display: inline-block;
 }
 
 /* #logo {
