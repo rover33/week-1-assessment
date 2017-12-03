@@ -60,7 +60,7 @@ button {
 span {
     font-weight: bold;
 }
-#textBox {
+section {
  background: url(images/frame.png) no-repeat center center fixed;
  background-size: cover;
 }
@@ -70,7 +70,7 @@ span {
     padding-right: 10%;
 } */
 
-nav {
+ul {
     list-style-type: none;    
 }
 
