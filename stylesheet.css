@@ -1,7 +1,13 @@
 
-html, body { /* body margins to 0 and linear gradient for coloring */
+body { /* body margins to 0 and linear gradient for coloring */
    margin: 0;
    font-size: 16px;
+   background: linear-gradient(to bottom, #3b6890 41vh, #ffffff 0);
+   background-size: cover;
+   width: 100%;
+   height: 50%;
+   top: 0;
+   z-index: -1;
    
 }
 
@@ -23,23 +29,6 @@ body { /* body background color*/
     width: 100%;
 }
 
-#blueBanner{ /* contains the image for the blue tile background as well the positioning to fit  */
-    /* background: url(images/bgtile.png) no-repeat center center fixed; 
-    background-size: cover;
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    top: 0;
-    z-index: -1; */ 
-    background: linear-gradient(to bottom, #3b6890 20vw, #ffffff 0);
-    background-size: cover;
-    width: 100%;
-    height: 40%;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-
-}
 
 #footerContainer { /* making sure that the footer container background is white */
     background-color: #ffffff;
@@ -155,3 +144,21 @@ footer{ /* clearing everything out so the footer sits at the bottom */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+ /* background: url(images/bgtile.png) no-repeat center center fixed; 
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    z-index: -1; */ 
