@@ -1,30 +1,38 @@
-html, body {
+
+html, body { /* body margins to 0 and linear gradient for coloring */
    margin: 0;
-   font-size: 16px; 
+   font-size: 16px;
+   
 }
 
 
 {
-    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box; /* making sure everything works in other browsers */
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 
-body {
+body { /* body background color*/
     background-color: #ffffff;
 
 }
 
-#container {
+#container { /* container width and height so all the elemetns fit within the page*/
     height:100vh;
     width: 100%;
 }
 
-#blueBanner{
-    background: url(images/bgtile.png) no-repeat center center fixed;
+#blueBanner{ /* contains the image for the blue tile background as well the positioning to fit  */
+    /* background: url(images/bgtile.png) no-repeat center center fixed; 
     background-size: cover;
-    content: "hello";
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    z-index: -1; */ 
+    background: linear-gradient(to bottom, #3b6890 20vw, #ffffff 0);
+    background-size: cover;
     width: 100%;
     height: 40%;
     position: absolute;
@@ -33,11 +41,11 @@ body {
 
 }
 
-#footerContainer {
+#footerContainer { /* making sure that the footer container background is white */
     background-color: #ffffff;
 }
 
-#innerBody{
+#innerBody{ /* styling for the container that contains all the elements for the page */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,12 +56,12 @@ body {
     justify-content: space-between;
 }
 
-#innerRight{
+#innerRight{ /* height for this container to make it all fit perfectly in the correct position */
     height: 30rem;
 }
 
 
-#instagramlogo{
+#instagramlogo{ /* positioning flexbox for the instagram and home logos */
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -62,11 +70,13 @@ padding-left: 1rem;
     
 }
 
-#phone{
+#phone{/* positioning for the phone image */
+   float: left; 
    padding-right: 3rem; 
+   clear:left;
 }
 
-#textapps{
+#textapps{ /* positioning for the paragraph and app store buttons */
     background: url(images/frame.png);
     background-repeat: no-repeat;
     height: 250px;
@@ -76,7 +86,7 @@ padding-left: 1rem;
     margin-top: 3rem;
 }
 
-button {
+button { /* styling and positioning for the home/login button */
     background-color: #668bab;
     color: white;
     display: flex;
@@ -87,27 +97,26 @@ button {
     width: 6rem;
 }
 
-button > span {
+button > span {/* positioning for the text "log in" */
     float: right;
     padding-left: 1rem;
 }
 
-#home{
+#home{ /* positioning for the home button only */
     padding-left: .3rem;
 }
 
 
-
-h1 {
+h1 { /* style and margin for the h1 */
     color: #042a51;
     margin:0
    }
 
-   span {
+   span { /* sytling for span items */
     font-weight: bold;
 }
 
-ul {
+ul { /* positioning and styling for the unordered list */
     list-style-type: none; 
     bottom: 0; 
     margin: auto;
@@ -116,39 +125,28 @@ ul {
     font-weight: bold;
 } 
 
-li {
+li { /* making the list horizontal in the footer */
     display: inline-block;
     padding: 5px;
 }
 
-a {
+a { /* styling for all the list items/nav buttons */
     color: #50789e;
     text-decoration-line: none;
     
 }
 
-#copy{
+#copy{ /* color for the the instagram copyright */
     color: #acacad
 }
 
 
-footer{
-    clear: both; */
-    /* background: white; */
-    /* display:row;
-    bottom: 0; */ 
+footer{ /* clearing everything out so the footer sits at the bottom */
+    clear: both; 
+    
 }   
 
-/* #logo {
-    background: url(images/bgtile.png) no-repeat center center fixed;
-    background-size: cover;
-    padding-top: 15%;
-}
 
-#home {
-    background-color: #668bab;
-}
-/*  */
 
 
 
