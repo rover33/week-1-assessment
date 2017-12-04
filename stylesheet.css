@@ -17,16 +17,23 @@ body {
 }
 
 #container {
+    height:100vh;
+    width: 100%;
+}
+
+#blueBanner{
     background: url(images/bgtile.png) no-repeat center center fixed;
     background-size: cover;
-    height:50vh;
-    width: 100vw;
+    content: "hello";
+    width: 100%;
+    height: 40%;
     position: absolute;
     top: 0;
+    z-index: -1;
+
 }
 
 #footerContainer {
-    height: 50vh;
     background-color: #ffffff;
 }
 
@@ -34,69 +41,66 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 15rem;
+    justify-content: center;
+    max-width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 #innerRight{
- display: inline-block;
- margin: 3rem;
+ /* display: inline-block; */
+ /* margin: 3rem; */
 }
 
 
 #instagramlogo{
-display: inline-block;
-padding: -1rem;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding-left: 1rem;
     
+}
+
+#phone{
+   padding-right: 3rem; 
 }
 
 #textapps{
- 
+    background: url(images/frame.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+    background-size: auto 100%;
+    padding: 2rem;
 }
 
 #para{
-  
+
 }
 
 #googleapple{
+   /* padding-left: 1rem;  */
 }
-
-/* #logo {
-    background: url(images/bgtile.png) no-repeat center center fixed;
-    background-size: cover;
-    padding-top: 15%;
-}
-
-#home {
-    background-color: #668bab;
-}
-
 button {
     background-color: #668bab;
     color: white;
+    display: flex;
+    align-items: center;
     font-weight: bold;
     border-color: #668bab;
-    float: right;
+    padding: 5px 0;
+    width: 80px;
 }
 
-#phone {
-    float: left;
-    padding-left: 15rem;
-   
-}
-#insta {
-    padding-left: 5rem;
-    padding-bottom: 5rem;
-    
-}
-
-#home {
-    padding-top: .2rem;
-}
-
-section {
-    background: url(images/frame.png);
-    background-repeat: no-repeat;
-    float: right;
+/* button > span:before {
+    background: url(images/home.png) no-repeat;
+    content: "";
+    display: inline-block;
+    background-size: 20px 20px;
+    height:20px;
+    width:20px; */
 }
 
 h1 {
@@ -104,17 +108,18 @@ h1 {
     margin:0
    }
 
-span {
+   span {
     font-weight: bold;
 }
-
 
 ul {
     list-style-type: none; 
     bottom: 0; 
     margin: auto;
-    text-align: center;  
-}
+    text-align: center; 
+    font-size: 13px; 
+    font-weight: bold;
+} 
 
 li {
     display: inline-block;
@@ -136,5 +141,24 @@ footer{
     clear: both; */
     /* background: white; */
     /* display:row;
-    bottom: 0; */
+    bottom: 0; */ 
 }   
+
+/* #logo {
+    background: url(images/bgtile.png) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 15%;
+}
+
+#home {
+    background-color: #668bab;
+}
+/*  */
+
+
+
+
+
+
+
+
